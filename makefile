@@ -1,3 +1,3 @@
 document:
-	autodoc *.hs
+	autodoc main.sh
 
