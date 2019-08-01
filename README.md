@@ -20,56 +20,66 @@ DEPENDENCIES:
 ## FUNCTIONS: 
 ### NAME: undefined
 #### DESCRIPTION:
-undefined
+
+Converts argument to remind script and places it into the daily file.
+  
 DEPENDENCIES: undefined
 #### ARGUMENTS: 
- date, msg
+ time, msg
 #### SIDE EFFECTS:
- modifies 
+ modifies daily file
 #### RETURNS:
  none
 
 ### NAME: undefined
 #### DESCRIPTION:
-undefined
+
+Converts argument to remind script and places it in the one time file.
+  
 DEPENDENCIES: undefined
 #### ARGUMENTS: 
  date, msg
 #### SIDE EFFECTS:
- modifies 
+ modifies one time file
 #### RETURNS:
  none
 
 ### NAME: undefined
 #### DESCRIPTION:
-undefined
+
+Converts argument to remind script and places it into periodic file.
+  
 DEPENDENCIES: undefined
 #### ARGUMENTS: 
- date, msg
+ time period, msg
 #### SIDE EFFECTS:
- modifies 
+ modifies periodic file
 #### RETURNS:
  none
 
 ### NAME: undefined
 #### DESCRIPTION:
-undefined
+
+Lists reminders by category or lists all reminders
+  
 DEPENDENCIES: undefined
 #### ARGUMENTS: 
- date, msg
+ reminder category or none
 #### SIDE EFFECTS:
- modifies 
+ sends listing of all reminders in category to STDOUT
 #### RETURNS:
  none
 
 ### NAME: undefined
 #### DESCRIPTION:
-undefined
+
+
+  
 DEPENDENCIES: undefined
 #### ARGUMENTS: 
- reminder id
+ reminder id number
 #### SIDE EFFECTS:
- modifies 
+ removes reminder from remind file by ID
 #### RETURNS:
  none
 
