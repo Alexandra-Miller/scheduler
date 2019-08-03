@@ -152,7 +152,7 @@ list () {
 '
 remove () {
     targetID=$1
-    sed "/x$targetID/,+1d" $ONETIME_REM_FILE $DAILY_REM_FILE $PERIODIC_REM_FILE
+    sed -i "/x$targetID/,+1d" $ONETIME_REM_FILE $DAILY_REM_FILE $PERIODIC_REM_FILE
 }
 
 

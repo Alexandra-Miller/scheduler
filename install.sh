@@ -2,10 +2,10 @@
 
 REMINDER_BASHRC="
 # this starts the reminder program on shell login
-(
-cd $HOME/.resources/scheduler/resources/
-remind -z master.rem &
-)
+# this starts the reminder program on shell login
+remind -z /home/enyo/.resources/scheduler/resources/daily.rem &
+remind -z /home/enyo/.resources/scheduler/resources/oneTime.rem &
+remind -z /home/enyo/.resources/scheduler/resources/periodic.rem &
 "
 
 # make directory for resources
