@@ -28,7 +28,7 @@ OPTIONS:
 -l --list       GROUP           lists reminders in GROUP or all reminders
 -r --remove     ID              remove reminder by ID number
 "
-RESOURCES_DIR="$HOME/.resources/scheduler/resources"
+RESOURCES_DIR="$HOME/.resources/scheduler"
 DAILY_REM_FILE="$RESOURCES_DIR/daily.rem"
 ONETIME_REM_FILE="$RESOURCES_DIR/oneTime.rem"
 PERIODIC_REM_FILE="$RESOURCES_DIR/periodic.rem"
